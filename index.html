@@ -3,20 +3,30 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Question</title>
+	<title>Quiz</title>
+    <link type="text/css" rel="stylesheet" href="assets/CSS/style.css"></link>
+    
 </head>
 <body>
-    <div id="title">
+    <div id="container">
+        <!--Div elemet that is created for question-->
+        <div id="title">
+
+        </div>
+        <!--unordered list for answers of the question-->
+        <ul>
+            <li class="alternative"></li>
+            <li class="alternative"></li>
+            <li class="alternative"></li>
+            <li class="alternative"></li>
+            
+        </ul>
+        <!--next button-->
+        <button id="btn">Next</button>
 
     </div>
-    <ul>
-        <li class="alternative"></li>
-        <li class="alternative"></li>
-        <li class="alternative"></li>
-        <li class="alternative"></li>
-        
-    </ul>
-    <button id="btn">Next</button>
-	<script src="question.js" type="text/Javascript"></script>
+    
+    <!--link to javascript file-->
+	<script src="assets/Js/question.js" type="text/Javascript"></script>
 </body>
 </html>
